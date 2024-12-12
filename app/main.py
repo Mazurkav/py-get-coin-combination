@@ -14,8 +14,8 @@ def get_coin_combination(cents: int) -> list:
         cents (int): The total amount in cents to convert into coins.
 
     Returns:
-        list: A list representing the smallest combination of coins for the given
-              amount in cents. The list contains [pennies, nickels, dimes, quarters].
+        list: A list representing the smallest combination.
+            The list contains [pennies, nickels, dimes, quarters].
     """
     values = [1, 5, 10, 25]
     coins = [0, 0, 0, 0]
