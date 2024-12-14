@@ -1,7 +1,5 @@
 # test_main.py
-import pytest
 from main import get_coin_combination
-
 
 def test_get_coin_combination() -> None:
     # Test case 1: 1 penny
