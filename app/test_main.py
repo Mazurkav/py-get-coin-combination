@@ -3,7 +3,7 @@ import pytest
 from main import get_coin_combination
 
 
-def test_get_coin_combination():
+def test_get_coin_combination() -> None:
     # Test case 1: 1 penny
     assert get_coin_combination(1) == [1, 0, 0, 0]
 

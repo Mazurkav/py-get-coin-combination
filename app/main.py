@@ -1,5 +1,8 @@
 # main.py
-def get_coin_combination(cents):
+from typing import List
+
+
+def get_coin_combination(cents: int) -> List[int]:
     coins = [0, 0, 0, 0]  # [pennies, nickels, dimes, quarters]
 
     coins[3] = cents // 25  # Quarters
