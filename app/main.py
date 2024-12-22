@@ -1,4 +1,4 @@
-def get_coin_combination(cents):
+def get_coin_combination(cents: int) -> list[int]:
     coins = [0, 0, 0, 0]  # pennies, nickels, dimes, quarters
     coins[3] = cents // 25
     cents %= 25
